@@ -92,10 +92,10 @@ with mlflow.start_run():
 
     classification_threshold = 0.45
 
-    y_pred_train_proba = best_model.predict_proba(Xtrain)[:, 1]
+    y_pred_train_proba = best_model.predict_proba(xtrain)[:, 1]
     y_pred_train = (y_pred_train_proba >= classification_threshold).astype(int)
 
-    y_pred_test_proba = best_model.predict_proba(Xtest)[:, 1]
+    y_pred_test_proba = best_model.predict_proba(xtest)[:, 1]
     y_pred_test = (y_pred_test_proba >= classification_threshold).astype(int)
 
     train_report = classification_report(ytrain, y_pred_train, output_dict=True)
