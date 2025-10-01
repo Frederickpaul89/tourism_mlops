@@ -13,4 +13,4 @@ except RepositoryNotFoundError:
   print("Repository does not exist, So creating it")
   api.create_repo(repo_id=r_id, repo_type=r_type, private= False)
   print("Repo created")
-api.upload_folder(folder_path="/tourism_project/data", repo_id=r_id, repo_type=r_type)
+api.upload_folder(folder_path="tourism_project/data", repo_id=r_id, repo_type=r_type)
