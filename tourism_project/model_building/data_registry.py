@@ -1,5 +1,5 @@
 from huggingface_hub import HfApi, create_repo
-from huggingface_hub import RepositoryNotFoundError, HfHubHTTPError
+from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 import os
 
 r_id="Enoch1359/Tourism_data"
