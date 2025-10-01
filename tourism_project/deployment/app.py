@@ -10,7 +10,7 @@ model = joblib.load(model_path)
 # Streamlit UI for Machine Failure Prediction
 st.title(" Tourism Package Prediction")
 st.write("""
-This application predicts the likelihood of customer buying tourism package
+This application predicts the likelihood of customer buying tourism package.
 """)
 
 
