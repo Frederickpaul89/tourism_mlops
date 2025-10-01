@@ -27,8 +27,8 @@ Xtest_path = "hf://datasets/Enoch1359/Tourism_data/x_test.csv"
 ytrain_path = "hf://datasets/Enoch1359/Tourism_data/y_train.csv"
 ytest_path = "hf://datasets/Enoch1359/Tourism_data/y_test.csv"
 
-Xtrain = pd.read_csv(Xtrain_path)
-Xtest = pd.read_csv(Xtest_path)
+xtrain = pd.read_csv(Xtrain_path)
+xtest = pd.read_csv(Xtest_path)
 ytrain = pd.read_csv(ytrain_path)
 ytest = pd.read_csv(ytest_path)
 
