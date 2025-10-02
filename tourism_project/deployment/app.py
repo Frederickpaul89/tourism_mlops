@@ -60,6 +60,6 @@ input_data = pd.DataFrame([{
 
 if st.button("Predict"):
     prediction = model.predict(input_data)[0]
-    result = "Yes, the Package is brought" if prediction == 1 else "No"
+    result = "Yes, the Package is brought" if prediction == 1 else "No,the Package is not brought"
     st.subheader("Prediction Result:")
     st.success(f"The model predicts: **{result}**")
